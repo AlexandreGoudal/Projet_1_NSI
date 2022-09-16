@@ -1,4 +1,8 @@
-nombre_initial = float (input ("Veuillez entrer le nombre
+nombre_initial = float (input ("Veuillez entrer le nombre à transformer : ")
+base_initiale = float (input ("Veuillez entrer la base du nombre : "))
+base_finale = float (input ("Veuillez entrer la base souhaitée : "))
+
+def 
 
 
 
