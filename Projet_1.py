@@ -6,8 +6,9 @@ if base_initial ! 2 or base_initale ! 10 or base_initiale ! 16 :
     print  ("La base du nombre que vous avez entrée n'est pas traitée par ce programme ")
 
 def base_10_2 (nombre_initial, base_initiale)
-    while r ! 0 and Q ! 0
+    while r ! 0 and q ! 0
         nombre_initial = divmod (nombre_initial, 2)
+    
         
         
                         
@@ -19,5 +20,5 @@ def base_10_2 (nombre_initial, base_initiale)
 
 
 
-print ("Le nombre " str (nombre_inital) "en base " str (base_initiale)\
-       + "vaut " str (nombre_final) "en base " str (base_finale))
+print ("Le nombre " str (nombre_inital) " en base " str (base_initiale)\
+       + " vaut " str (nombre_final) " en base " str (base_finale))
