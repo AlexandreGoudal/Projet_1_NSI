@@ -6,7 +6,6 @@ def
 
 
 
-bzruhf
                         
 
 print ("Le nombre " str (nombre_inital) "en base " str (base_initiale)\
