@@ -6,14 +6,14 @@ if nombre_initial != int :
 
 base_initiale = int (input ("Veuillez entrer la base du nombre (Les seules bases traitées sont 2, 10 et 16) : "))
 
-if base_initiale != int :
-    print ("Cette valeur n'est pas traitée par le programme, nous nous excusons pour la gêne occasionée.")
+if base_initiale != 2 and base_initiale != 10 and base_initiale != 16 :
+    print  ("La base du nombre que vous avez entrée n'est pas traitée par ce programme ")
     exit()
 
 base_finale = int (input ("Veuillez entrer la base souhaitée (Les seules bases traitées sont 2,10 et 16)  : "))
 
-if base_finale != int :
-    print ("Cette valeur n'est pas traitée par le programme, nous nous excusons pour la gêne occasionée.")
+if base_finale != 2 and base_initiale != 10 and base_initiale != 16 :
+    print  ("La base du nombre que vous avez entrée n'est pas traitée par ce programme ")
     exit()
 
 
