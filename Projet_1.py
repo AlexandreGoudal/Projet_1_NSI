@@ -17,10 +17,6 @@ if base_finale != 2 and base_initiale != 10 and base_initiale != 16 :
     exit()
 
 
-if base_initiale != 2 and base_initiale != 10 and base_initiale != 16 :
-    print  ("La base du nombre que vous avez entrée n'est pas traitée par ce programme ")
-    exit()
-
 def base_10_2 (nombre_initial, base_initiale) :
     r = 1
     q = 1
