@@ -1,6 +1,6 @@
-nombre_initial = int (input ("Veuillez entrez l'entier à traiter : "))
+nombre_initial = input ("Veuillez entrez l'entier à traiter : ")
 
-if nombre_initial != int :
+if type (nombre_initial) != int :
     print ("Cette valeur n'est pas traitée par le programme, nous nous excusons pour la gêne occasionée.")
     exit ()
 
@@ -30,6 +30,7 @@ def base_10_2 (nombre_initial, base_initiale) :
         nombre_final.append (r)
     return nombre_final
     
+
 
         
                         
