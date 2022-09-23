@@ -1,9 +1,9 @@
 # -*- coding: cp1252 -*-
 nombre_initial = input ("Veuillez entrez l'entier à traiter : ")
 
-if type (nombre_initial) == float or type (nombre_initial) == tuple:
-    print ("Cette valeur n'est pas traitée par le programme, nous nous excusons pour la gêne occasionée.")
-    exit ()
+if type (nombre_initial) == float:
+    print ("Cette valeur n'est pas traité par ce programme.")
+    exit()
 
 base_initiale = int (input ("Veuillez entrer la base du nombre (Les seules bases traitées sont 2, 10 et 16) : "))
 
@@ -25,12 +25,6 @@ def conversion (nombre_initial, base_initiale, base_finale):
         nombre_final = hex (nombre_initial)
         return nombre_final
 
-
-
-
-
-
-
 print ("Le nombre "\
        + str (nombre_initial)\
        + " en base "\
@@ -40,4 +34,3 @@ print ("Le nombre "\
        + " en base "\
        + str (base_finale)\
        + ".")
-
