@@ -1,7 +1,7 @@
 # -*- coding: cp1252 -*-
-nombre_initial = int (input ("Veuillez entrez l'entier à traiter : "))
+nombre_initial = input ("Veuillez entrez l'entier à traiter : ")
 
-if type (nombre_initial) != int :
+if type (nombre_initial) == float or type (nombre_initial) == tuple:
     print ("Cette valeur n'est pas traitée par le programme, nous nous excusons pour la gêne occasionée.")
     exit ()
 
