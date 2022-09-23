@@ -20,6 +20,12 @@ def base_10_2 (nombre_initial, base_initiale)
 
 
 
-
-print ("Le nombre " str (nombre_inital) " en base " str (base_initiale)\
-       + " vaut " str (nombre_final) " en base " str (base_finale))
+print ("Le nombre "\
+       + str (nombre_initial)\
+       + " en base "\
+       + str (base_initiale)\
+       + " vaut "\
+       + str (nombre_final)\
+       + " en base "\
+       + str (base_finale)\
+       + ".")
