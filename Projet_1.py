@@ -25,15 +25,7 @@ def conversion (nombre_initial, base_initiale, base_finale):
         nombre_final = hex (nombre_initial)
         return nombre_final
 
-def base (nombre_initial, base_initiale) :
-    r = 1
-    q = 1
-    while r != 0 and q != 0 :
-        nombre_final = []
-        nombre_initial = divmod (nombre_initial, base_initiale)
-        nombre_final.append (r)
-    return nombre_final
-    pass
+
 
 
 
