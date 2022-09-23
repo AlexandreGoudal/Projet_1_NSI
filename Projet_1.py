@@ -8,6 +8,7 @@ if base_initial ! 2 or base_initale ! 10 or base_initiale ! 16 :
 def base_10_2 (nombre_initial, base_initiale)
     while r ! 0 and q ! 0
         nombre_initial = divmod (nombre_initial, 2)
+        append (r)
     
         
         
