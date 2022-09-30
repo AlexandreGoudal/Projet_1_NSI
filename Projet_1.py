@@ -26,18 +26,21 @@ else :
 def calcul_nbits (nombre_initial, base_initiale, base_finale):
     if base_initiale == 10 and base_finale == 2:
         nbits = 0
-        while abs (int(nombre_initial)) > 2**nbits:
+        while abs (str(nombre_initial)) > 2**nbits:
             nbits = nbits + 1
     return nbits + 1
 
+nbits = calcul_nbits (nombre_initial, base_initiale, base_finale)
 
 if base_initiale == 2 or base_initiale == 16:
     nombre_initial = str (nombre_initial)
 
 def convert_2_10 (nombre_initial, base_initiale, base_finale):
     if base_initiale == 2 and base_finale == 10:
-        a = nombre_initial [calcul_nbits (nombre_initial, base_initiale, base_finale)- 1]
-    return a
+        nombre_final = 0
+        for i in range (nbits):
+            nombre_final = nombre_final + 2**nombre_initial [len (nombre_initial) - i]
+    return nombre_final
 print (convert_2_10 (nombre_initial, base_initiale, base_finale))
 
 def conversion (nombre_initial, base_initiale, base_finale):
