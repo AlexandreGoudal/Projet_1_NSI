@@ -21,6 +21,12 @@ while base_finale != 2 and base_finale != 10 and base_finale != 16 :
 else :
     pass
 
+def calcul_nbits (nombre_initial, base_initiale, base_finale):
+    if base_initiale == 10 and base_finale == 2:
+        nbits = 0
+    while abs (nombre_initial) > 2**nbits:
+        nbits = nbits + 1
+    return nbits + 1
 
 def conversion (nombre_initial, base_initiale, base_finale):
     if base_initiale == 10 and base_finale == 2:
